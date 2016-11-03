@@ -30,6 +30,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         --app-secondary-color: black;
         display: block;
       }
+      app-drawer {
+         --app-drawer-width: 180px;
+      }
 
       app-header {
         color: #fff;
@@ -55,6 +58,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         color: black;
         font-weight: bold;
       }
+      .icon20 {
+        width:15px;
+        height:15px;
+      }
     </style>
 
     <app-location route="{{route}}"></app-location>
@@ -69,8 +76,10 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <app-drawer>
         <app-toolbar>Blogs</app-toolbar>
         <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
-          <a name="view1" href="/view1">About</a>
-          <a name="2016_11_03_prg" href="/2016_11_03_prg">2016_11_03_prg</a>
+          <a name="view1" href="/view1">
+             <img class="icon20" src='img/about.png' /> About</a>
+          <a name="2016_11_03_prg" href="/2016_11_03_prg">
+             <img class="icon20" src='img/2016_11_03_prg.png' /> 2016_11_03_prg</a>
         </iron-selector>
       </app-drawer>
 

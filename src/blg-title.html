@@ -1,0 +1,24 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="blg-title">
+    <template>
+        <style>
+            :host {
+                display: block;
+                padding: 1px;
+            }
+        </style>
+        <h2>{{title}}</h2>
+    </template>
+    <script>
+        Polymer({
+            is: 'blg-title',
+            properties : {
+                title: {
+                    type: String,
+                    value: "Missing title"
+                }
+            }
+        });
+    </script>
+</dom-module>

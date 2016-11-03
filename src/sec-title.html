@@ -1,0 +1,19 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="sec-title">
+    <template>
+        <style include="shared-styles">
+            :host {
+                display: block;
+                padding: 6px 0px 0px 0px;
+            }
+        </style>
+        <b class="sectitle"><content></content></b>
+    </template>
+    <script>
+        Polymer({
+            is: 'sec-title',
+        });
+    </script>
+</dom-module>

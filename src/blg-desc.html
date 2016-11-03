@@ -1,0 +1,20 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="shared-styles.html">
+
+<dom-module id="blg-desc">
+    <template>
+        <style include="shared-styles">
+            :host {
+                display: block;
+                padding: 1px;
+            }
+        </style>
+        <b class="sectitle">Summary</b><br/>
+        <content></content>
+    </template>
+    <script>
+        Polymer({
+            is: 'blg-desc',
+        });
+    </script>
+</dom-module>

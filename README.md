@@ -1,4 +1,4 @@
-# Polymer App Toolbox - Starter Kit
+# Rebuild My Blog Site Using Polymer App Toolbox
 
 [![Build Status](https://travis-ci.org/PolymerElements/polymer-starter-kit.svg?branch=master)](https://travis-ci.org/PolymerElements/polymer-starter-kit)
 

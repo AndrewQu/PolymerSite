@@ -1,0 +1,35 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="copy-right.html">
+<link rel="import" href="shared-styles.html">
+<link rel="import" href="blg-title.html">
+<link rel="import" href="blg-desc.html">
+<link rel="import" href="sec-title.html">
+
+<dom-module id="my-2016_10_06_prg">
+    <template>
+        <style include="shared-styles">
+            :host {
+                display: block;
+                padding: 5px;
+            }
+        </style>
+
+        <blg-title title="Learning Polymer - One Bright Future for Web Development">
+        </blg-title>
+        <blg-desc>With the new HTML5 "import" feature, web development can be
+            componentized in the future. Google Polymer project aims to provide
+            optimized core web components, tools to build web components and most
+            importantly, provide <i>Polyfill</i> that allows to consume web
+            components before major browsers are ready for the HTML5 import feature.
+            In this blog, I will describe my experience in learning Polymer. 
+        </blg-desc>
+        <sec-title>Polymer Installation</sec-title>
+
+        <copy-right></copy-right>
+    </template>
+    <script>
+        Polymer({
+            is: 'my-2016_10_06_prg',
+        });
+    </script>
+</dom-module>

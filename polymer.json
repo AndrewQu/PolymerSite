@@ -3,6 +3,8 @@
   "shell": "src/my-blogs.html",
   "fragments": [
     "src/my-about.html",
+    "src/my-2016_10_06_prg.html",
+    "src/my-2016_11_03_prg.html",
     "src/my-view404.html"
   ],
   "sourceGlobs": [
